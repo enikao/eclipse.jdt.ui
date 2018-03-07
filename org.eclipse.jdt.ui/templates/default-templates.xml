@@ -152,6 +152,8 @@ return ${name};</template>
 
 <template name="systrace" description="%Templates.systrace" id="org.eclipse.jdt.ui.templates.systrace" context="java-statements" enabled="true" autoinsert="true">System.out.println(&quot;${enclosing_type}.${enclosing_method}()&quot;);</template>
 
+<template name="sysvar" description="%Templates.sysvar" id="org.eclipse.jdt.ui.templates.sysvar" context="java-statements" enabled="true" autoinsert="true">System.out.println(&quot;${var} = &quot; + ${var});${cursor}</template>
+
 <template name="&lt;code&gt;" description="%Templates.code_tag" id="org.eclipse.jdt.ui.templates.code_tag" context="javadoc" enabled="true" autoinsert="true">&lt;code&gt;${word_selection}${}&lt;/code&gt;${cursor}</template>
 
 <template name="null" description="%Templates.code_tag_null" id="org.eclipse.jdt.ui.templates.code_tag_null" context="javadoc" enabled="true" autoinsert="true">&lt;code&gt;null&lt;/code&gt;</template>
